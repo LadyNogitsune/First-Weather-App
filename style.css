@@ -1,0 +1,97 @@
+body {
+  background: #94b5c0;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  color: #350b40;
+}
+
+h2 {
+  text-align: center;
+  padding: 15px;
+  font-size: 65px;
+  color: #f0e5d8;
+}
+
+h3 {
+  text-align: center;
+  padding: 50px;
+  color: #350b40;
+}
+
+.form-example {
+  text-align: center;
+  padding: 50px;
+  font-size: 25px;
+  color: #350b40;
+}
+
+.main{
+  margin: 0 auto;
+  display: block;
+  padding-left: 200px;
+}
+
+.row {
+  margin: 0 auto;
+  padding-left: 200px;
+}
+
+i {
+  font-size: 50px;
+  color: #f0e5d8;
+}
+
+.card-title {
+  font-size: 23px;
+}
+
+.card-body {
+  background: #ad6c80;
+  text-align: center;
+  padding: 25px;
+}
+
+.btn-primary {
+  background: #ee99a0;
+  border: #ee99a0;
+}
+
+.btn-primary:hover {
+  color: #ad6c80;
+  background-color: #350b40;
+}
+
+a{
+  text-decoration: none;
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 0;
+  color: #ee99a0;
+}
+
+.temperature {
+  font-size: 25px;
+}
+
+sup{
+  font-size: 15px ;
+  display: inline;
+}
+
+input {
+  background: #ee99a0;
+  color: #f0e5d8;
+}
+
+input:hover{
+  color: #ad6c80;
+  background-color: #350b40;
+}
+
+#search-text-input{
+  background-color: #f0e5d8;
+  color: #350b40;
+}
