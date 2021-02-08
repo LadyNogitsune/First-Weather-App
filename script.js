@@ -84,26 +84,3 @@ navigator.geolocation.getCurrentPosition(showPosition)
 let current = document.querySelector ('#current')
 current.addEventListener("click",showPosition)
 
-// forcast
-
-function searchWeather(event){
-  event.preventDefault();
-  let searchInput = document.querySelector("#search-text-input");
-
-  console.log(searchInput.value);
-  let h2 = document.querySelector ("h2");
-  h2.innerHTML = searchInput.value;
-
-let city = searchInput.value
-let apiKey = "a0c13833abc217a0181faa947d5ff7c5"
-let apiUrl = "https://api.openweathermap.org/data/2.5/weather?"
-
-function showTemp (response){
-  console.log (response.data.main.temp)
-  let change = document.querySelector(".temperature")
-  change.innerHTML = response.data.main.temp
-}
-axios.get(`${apiUrl}q=${city}&appid=${apiKey}&units=metric`).then (showTemp)
-}
-let apiKey = "a0c13833abc217a0181faa947d5ff7c5";
-let apiUrl = "https://api.openweathermap.org/data/2.5/forecast?q=&appid=${apiKey}"
